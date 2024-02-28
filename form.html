@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="./form.css">
+    <link rel="shortcut icon" href="./images/oberoi.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a30a90e783.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <!-- <h1>-: APPLICATION FORM :-</h1>  -->
+    <form action="https://youtube.com/">
+        <h1>-: APPLICATION FORM :-</h1>
+        <label for="fname">First Name:</label> <br/>
+        <input type="text" id="fname" placeholder="Enter first name"/> <br/>
+
+        <label for="lname">Last Name:</label> <br/>
+        <input type="text" id="lname" placeholder="Enter last name"/> <br/>
+
+        <label for="mobile">Mobile Number:</label> </br>
+        <input type="number" id="mobile" placeholder="Enter the mobile number"> </br>
+
+        <label for="email">Email:</label> <br/>
+        <input type="email" id="email" placeholder="Enter the email address"/> </br>
+
+        <label for="D.O.B.">D.O.B.:</label>
+        <input type="date"> </br>
+
+        <label for="">Gender:</label>
+        <input type="radio" name="gen"/> <label for="">Male</label>
+        <input type="radio" name="gen"/> <label for="">Female</label> </br>
+
+        <label for="">Quiz: What is the  answer of: 10+20x10 =?..... Options are:    </label>
+        <input type="radio" name="Q" /> <label for="">300</label>
+        <input type="radio" name="Q" /> <label for="">210</label>
+        <input type="radio" name="Q" /> <label for="">150</label>
+        <input type="radio" name="Q" /> <label for="">100</label> </br>
+
+        <label for="">Upload image:</label>
+        <input type="file"> </br>
+
+        <label for="">Create password:</label>
+        <input type="text"> </br>
+        <label for="">Confirm password:</label>
+        <input type="password"> </br>
+
+        <input type="checkbox" required /> <label for="">I have read & understood T&C</label> </br>
+        <input type="checkbox" /> <label for="">I am accepting T&C</label> </br>
+
+        <!-- <input type="submit" />
+        <input type="reset" /> </br> -->
+
+        <label for="">Ratings(low/high):</label>
+        <input type="range" /> </br>
+
+        <label for="">Favourite color(choose here):</label>
+        <input type="color" /> </br>
+
+        <label for="project">Project (website):</label>
+        <input type="url" id="project" placeholder="Enter the url" /> </br>
+
+        <label for="skills">Skills:</label>
+
+       <select name="" id="skills">
+        <option value="" hidden>---Select---</option>
+        <option value="">Testing</option>
+        <option >Development</option>
+        <option>Others</option>
+       </select>
+
+       <label for="">...Others(Please specify):</label>
+       <textarea name="" id="" cols="20" rows="1"></textarea> </br>
+
+       <label for="">Feedback/Suggestions:</label> </br>
+       <textarea name="" id="" cols="63" rows="2"></textarea> </br>
+
+        <button type="submit">Submit</button>
+        <button type="reset">Cancel</button>
+
+        <!-- <input type="submit" />
+        <input type="reset" /> </br> -->
+
+    </form>
+</body>
+</html>
